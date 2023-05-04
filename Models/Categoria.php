@@ -7,4 +7,7 @@ class Categoria {
         $this->titolo = $titolo;
         $this->icona = $icona;
     }
+    public function pescaIcona() {
+        return $this->icona;
+    }
 }
