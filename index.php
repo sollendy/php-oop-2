@@ -14,6 +14,7 @@ require_once './db.php';
 <body>
     <header class="text-center">
         <h1>pet sciop</h1>
+        <!-- <h2>ciuri di primavera</h2> -->
     </header>
     <main>
         <section class="pt-3 d-flex gap-2 px-2">
