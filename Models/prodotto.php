@@ -1,5 +1,7 @@
 <?php
+require_once './traits/qualita.php';
 class Prodotto {
+    use Qualita;
     public $immag;
     public $nome;
     public $prezzo;
