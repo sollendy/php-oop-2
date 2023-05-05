@@ -26,15 +26,17 @@ require_once './db.php';
               <div class="card-body">
                 <h5 class="card-title"><?=$prodotto->nome?></h5>
                 <b class="card-text"><?=$prodotto->prezzo?>&euro;</b>
-                <!-- <p>
-                </p> -->
+                <p>
+                    <b>
                     <?php 
                     try {
-                        $prodotto->setQuality('alta');
+                        $prodotto->setQuality('ah');
                     } catch (Exception $e) {
                         echo $e->getMessage();
                     }
                     ?>
+                    </b>
+                </p>
                 <div class="text-center"><i class="<?=$prodotto->categoria->icona?>"></i></div>
               </div>
             </div>
